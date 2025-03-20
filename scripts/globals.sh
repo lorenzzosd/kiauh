@@ -49,7 +49,7 @@ function set_globals() {
   #=============== KLIPPERSCREEN ================#
   KLIPPERSCREEN_ENV="${HOME}/.KlipperScreen-env"
   KLIPPERSCREEN_DIR="${HOME}/KlipperScreen"
-  KLIPPERSCREEN_REPO="https://github.com/jordanruthe/KlipperScreen.git"
+  KLIPPERSCREEN_REPO="https://github.com/lorenzzosd/KlipperScreen.git"
 
   #========== MOONRAKER-TELEGRAM-BOT ============#
   TELEGRAM_BOT_ENV="${HOME}/moonraker-telegram-bot-env"
