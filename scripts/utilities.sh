@@ -292,8 +292,8 @@ function do_action_service() {
 function python3_check() {
   local major minor passed
 
-  major=$(python3 --version | cut -d" " -f2 | cut -d"." -f1)
-  minor=$(python3 --version | cut -d"." -f2)
+  major=$(python3 --version | head -n 1 | cut -d" " -f2 | cut -d"." -f1)
+  minor=$(python3 --version | head -n 1 | cut -d"." -f2)
 
   if (( major >= 3 && minor >= 7 )); then
     passed="true"

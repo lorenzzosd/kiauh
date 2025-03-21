@@ -220,7 +220,7 @@ function patch_klipperscreen_update_manager() {
 [update_manager KlipperScreen]
 type: git_repo
 path: ${HOME}/KlipperScreen
-origin: https://github.com/lorenzzosd/KlipperScreen.git
+origin: https://github.com/jordanruthe/KlipperScreen.git
 env: ${HOME}/.KlipperScreen-env/bin/python
 requirements: scripts/KlipperScreen-requirements.txt
 install_script: scripts/KlipperScreen-install.sh
