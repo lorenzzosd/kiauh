@@ -168,7 +168,7 @@ function main() {
 }
 
 check_if_ratos
-check_euid
+# check_euid
 init_logfile
 set_globals
 kiauh_update_dialog
